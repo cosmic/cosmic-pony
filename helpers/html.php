@@ -8,8 +8,8 @@ function h($txt) {
 // Returns the given javascript files as <script> tags
 // Example:
 //   link_js(array('foo.js', 'bar.js')); 
-// # => <script src="foo.js"></script>
-// #    <script src="bar.js"></script>
+//   # => <script src="foo.js"></script>
+//   #    <script src="bar.js"></script>
 function link_js($javascripts) {
   $markup = '';
   foreach ((array) $javascripts as $js) {
